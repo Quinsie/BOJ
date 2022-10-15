@@ -1,0 +1,9 @@
+import sys
+
+num = int(sys.stdin.readline())
+
+factorial = 1
+for i in range(1, num + 1):
+    factorial *= i
+
+print(factorial)
